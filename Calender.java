@@ -55,7 +55,7 @@ public class Calender {
 			if(tmp > 100) //100자리에 몇일짼지를 넣는다.
 			{
 				day = counter - 100;
-				month = i;
+				month = i+1;
 				break;		
 						
 						
@@ -68,7 +68,7 @@ public class Calender {
 				{
 				
 				counter = tmp;
-				 month = i+1;
+				 month = i;
 				}
 			
 			
